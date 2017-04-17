@@ -88,8 +88,8 @@ if __name__ == "__main__":
     #print argus
     print args.id + args.ip + args.P + args.pw
     
-    prgm_path = os.environ.get("PROGRAMFILES(X86)")
-    run_run = prgm_path + "\PuTTY\putty.exe " + argus #"C:\Program Files (x86)\PuTTY\putty.exe " + argus
+    #prgm_path = os.environ.get("PROGRAMFILES(X86)")
+    run_run = "C:\Program Files\PuTTY\putty.exe " + argus #"C:\Program Files (x86)\PuTTY\putty.exe " + argus
     
     print run_run
     
